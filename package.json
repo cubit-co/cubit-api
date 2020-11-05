@@ -1,0 +1,29 @@
+{
+  "name": "cubit-api",
+  "version": "1.0.0",
+  "description": "The base for services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cubit-co/cubit-api.git"
+  },
+  "keywords": [
+    "cubit",
+    "api"
+  ],
+  "author": "Alejandro Alvarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cubit-co/cubit-api/issues"
+  },
+  "homepage": "https://github.com/cubit-co/cubit-api#readme",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.12",
+    "uuid": "^8.3.1"
+  }
+}
