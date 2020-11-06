@@ -1,6 +1,6 @@
 {
-  "name": "cubit-api",
-  "version": "1.0.0",
+  "name": "cubit-base",
+  "version": "1.0.1",
   "description": "The base for services",
   "main": "index.js",
   "scripts": {
