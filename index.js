@@ -124,10 +124,8 @@ class Base {
     }
 
     encryptWithIv(data) {
-        let key = '6fa979f20126cb08aa645a8f495f6d85';
-        let iv = '0000000000000000';
-        let cipher = crypto.AES.encrypt(JSON.stringify(data), crypto.enc.Utf8.parse(key), {
-            iv: crypto.enc.Utf8.parse(iv), // parse the IV 
+        let cipher = crypto.AES.encrypt(JSON.stringify(data), crypto.enc.Utf8.parse(process.env.key2), {
+            iv: crypto.enc.Utf8.parse(process.env.iv), // parse the IV 
             padding: crypto.pad.Pkcs7,
             mode: crypto.mode.CBC
         });
